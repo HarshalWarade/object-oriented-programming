@@ -34,7 +34,7 @@ void Human::setName(const string &newName) {_name = newName;};
 string Human::getGender()const {return _gender;};
 void Human::setGender(const string &newGender) {_gender = newGender;};
 
-Human::Human(const Human& values) {
+Human::Human(const Human &values) {
     _name = "copy-of-" + values._name;
     _gender = values._gender;
 }
