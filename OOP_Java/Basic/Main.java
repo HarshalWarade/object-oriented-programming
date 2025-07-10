@@ -10,6 +10,14 @@ class Fan implements Device {
         System.out.println("Fan is turned OFF!");
     }
 }
+class Printer implements Device {
+    public void turn_on() {
+        System.out.println("Printer is turned ON!");
+    }
+    public void turn_off() {
+        System.out.println("Printer is turned OFF!");
+    }
+}
 class Main {
     public static void main(String[] args) {
         Fan fan = new Fan();
